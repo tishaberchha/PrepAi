@@ -423,3 +423,12 @@ body {
     background: grey;
     color: white;
 }
+@media(max-width:580px) {
+    .quiz-box.active {
+        width: 300px;
+    }
+
+    .popup-info.active {
+        width: 300px;
+    }
+}

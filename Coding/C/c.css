@@ -6,7 +6,7 @@ body{
     font-family: "Poppins",sans-serif;
 }
 .main{
-    min-height: 100vh;
+    min-height: 100vh;   
     background-image: url('../../Images/bg-question.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@ border-radius: rgb(77, 73, 73);
     transition-delay: .25s;
     z-index: 100;
     background-color: rgb(0, 0, 0);
-    /* margin-left: -150px; */
+    /* margin-left: -150px;  */
 }
 .quiz-section.active{
   left: 0;
@@ -382,9 +382,34 @@ border-radius: rgb(77, 73, 73);
     .quiz-box.active{
         width: 300px;
     }
-    
+     .popup-info{
+        width: 300px;
+     }
+     .home-content h1{
+       font-size: 28px;
+     }
+ 
          .popup-info.active{
             width: 300px;
          }
+                 .result-box.active {
+                     width: 250px;
+                     margin-left: -72px;
+                 }
+        
+                 .result-box.active h2 {
+                     font-size: 30px;
+                 }
+        
+                 .result-box.active .tryAgain-btn {
+                     width: 100px;
+                     margin-left: 20px;
+                 }
+        
+                 .result-box.active .goHome-btn {
+                     width: 140px;
+        
+                 }
+    
 }
     

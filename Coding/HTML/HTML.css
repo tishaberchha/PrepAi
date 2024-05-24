@@ -423,3 +423,30 @@ body {
     background: grey;
     color: white;
 }
+
+@media(max-width:580px) {
+    .quiz-box.active {
+        width: 300px;
+    }
+
+    .popup-info.active {
+        width: 300px;
+    }
+
+    .result-box.active {
+        width: 250px;
+        margin-left: -72px;
+    }
+
+    .result-box.active h2 {
+        font-size: 30px;
+    }
+        .result-box.active .tryAgain-btn {
+            width: 100px;
+            margin-left: 20px;
+        }
+ .result-box.active .goHome-btn {
+     width: 140px;
+
+ }
+}

@@ -661,7 +661,7 @@ body {
         color: rgb(255, 255, 255);
        
     }
-   
+      
   }
   .navbar-main{
     width: 100%;
@@ -699,4 +699,24 @@ body {
 }
     .content-desc span {
       color: #FEC53A;
+  }
+
+  @media(max-width:580px){
+    .prep{
+        margin-top: -120px;
+        padding-bottom: 50px;
+    }
+    .content-desc h1{
+        margin-left: 20px;
+    }
+         .content-desc h1 span{
+            margin-left: 55px;
+         }
+          .content-desc .btn{
+            margin-left: 80px;
+          }
+                         .nav-link h2 {
+                             color: rgb(255, 255, 255);
+            
+                         }
   }

@@ -146,7 +146,7 @@ function showResultBox() {
     
     
     
-    const myArray = ["ENFP", "ESFJ", "ENTP", "ESTJ", "ESFP","ENFJ", "ESTP","ENTJ" , "INFP" , "ISFJ" , "INTP", "ISTJ", "ISFP", "INFJ", "ISFP" , "INFJ", "ISTP", "INTJ"];
+    const myArray = ["ENFP", "ESFJ", "ENTP", "ESTJ", "ESFP","ENFJ", "ESTP","ENTJ" , "INFP" , "ISFJ" , "INTP", "ISTJ", "ISFP", "INFJ",  "ISTP", "INTJ"];
     
     // Function to generate a random index within the array length
     function getRandomIndex(array) {
